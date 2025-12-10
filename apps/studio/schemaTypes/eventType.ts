@@ -31,7 +31,7 @@ export const eventType = defineType({
       to: [{type: 'venue'}],
     }),
     defineField({
-      name: 'headliner',
+      name: 'headline',
       type: 'reference',
       to: [{type: 'artist'}],
     }),
